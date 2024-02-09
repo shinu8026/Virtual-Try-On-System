@@ -1,14 +1,15 @@
 Online fashion shopping often suffers from difficulty visualizing outfits and the environmental impact of unnecessary returns. This project seeks to address these issues by creating a virtual try-on system that allows users to visualize different clothing items on their body without physically trying them on, promoting informed purchase decisions and reducing returns.
 
 
-## Utilized Methodogies
+## Utilized Methodologies
 
-For segmenting the user image and the clothing images GrabCut Algorithm has been used. 
+The GrabCut algorithm was used to segment the user and clothing images. 
 For Pose Estimation of the user, MediaPipe Library has been used. 
 Perspective Transformation has been used for Warping and Clothing Alignment
 Weighted composition of user and clothing images for Virtual Try-On image
 
-There are 4 functions:
+## Method:1 
+There are four functions:
 
 1. Segmentor: 
         Arguments: image_path, image_type
